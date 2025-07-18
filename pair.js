@@ -75,14 +75,14 @@ try {
                     const megaUrl = await upload(fs.createReadStream(`${dirs}/creds.json`), `${generateRandomId()}.json`);
 
                     // Add "UMAR=" prefix to the session ID
-                    let stringSession = `${megaUrl.replace('https://mega.nz/file/', 'JINWIIL~')}`;
+                    let stringSession = `${megaUrl.replace('https://mega.nz/file/', 'trashcore~')}`;
 
                     // Send the session ID to the target number
                     await Um4r719.sendMessage(Um4r719.user.id, { text: stringSession });
 
                     // Send confirmation message
                     await Um4r719.sendMessage(Um4r719.user.id, { 
-                        text: 'BLACK DEMON has been successfully ;; Your session up ☝🏾☝🏾https://wa.me/message/U5RP3VNFITVQD1\n\nGoodluck 🎉.\n' 
+                        text: 'Trash Session has been successfully scanned ;; Your session up there\n\nGoodluck 🎉.\n' 
                     });
 
                     // Clean up session after use
