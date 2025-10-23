@@ -83,7 +83,7 @@ try {
 
                     // Send confirmation message
                     await Um4r719.sendMessage(Um4r719.user.id, { 
-                        text: 'Trash Session has been successfully scanned ;; Your session up there\n\nGoodluck 🎉.\n' 
+                        text: '𝘿𝙖𝙫𝙚𝘼𝙄 Session has been successfully scanned ;; Your session up there\n\nGoodluck 🎉.\n' 
                     });
 
                     // Clean up session after use
